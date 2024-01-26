@@ -45,3 +45,8 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+// docker 이미지를 위한 설정
+jar {
+	enabled = false
+}
